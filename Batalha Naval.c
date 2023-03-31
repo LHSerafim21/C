@@ -10,7 +10,7 @@ int funcao_menu_inicial(){
     system("cls");
     system("color 9F");
 
-    while(x!=1){
+    while(y!=1){
 
         system("cls");
         system("color 9F");
