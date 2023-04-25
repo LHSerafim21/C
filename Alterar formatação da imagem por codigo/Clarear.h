@@ -52,7 +52,7 @@ void Principal__Clarear(){
 
     fclose(arq);
 
-    //---------------------escurecer Matriz-----------------------
+    //---------------------Clarear Matriz-----------------------
 
     printf("Digite a porcentagem de Clareamento da imagem:\n");
     scanf("%d",&e);

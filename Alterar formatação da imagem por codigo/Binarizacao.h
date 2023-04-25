@@ -13,6 +13,7 @@ int** funcaoAlocarMatrizB(int x, int y){
     return matriz;
 
 }
+    //-------------------Declaracao de Variaveis---------------
 
 void Principal__Binarizacao(){
 
@@ -38,13 +39,19 @@ void Principal__Binarizacao(){
     fscanf(arq,"%d %d",&coluna,&linha);
     fscanf(arq,"%d",&brilho);
 
-    MatrizOriginal = funcaoAlocarMatrizB(coluna, linha);
-    MatrizEspelhada = funcaoAlocarMatrizB(coluna, linha);
+    //-----------------Alocar Matrizes------------------------
+
+    MatrizOriginal = funcaoAlocarMatrizB(linha, coluna);
+    MatrizEspelhada = funcaoAlocarMatrizB(linha, coluna);
+
+    //int MatrizOriginal[452][374], MatrizEspelhada[452][374];
+
+    //------Passar as informações do arquivo para a matriz---
 
     for(i = 0; i < linha; i++){
         for(j = 0; j < coluna; j++){
             fscanf(arq, "%d", &A);
-            MatrizOriginal[i][j]=A;
+            MatrizOriginal[i][j]= A;
         }
     }
 
@@ -52,21 +59,19 @@ void Principal__Binarizacao(){
 
     //----------------Binarizacao-----------------------------
 
-
-
         for(i=0; i<linha; i++){
-        for(j=0; j<coluna; j++){
+            for(j=0; j<coluna; j++){
 
-            if(MatrizOriginal[i][j] <= 112){
-                MatrizEspelhada[i][j] = 0;
-            }
-            else{
-                MatrizEspelhada[i][j] = 1;
+                if(MatrizOriginal[i][j] <= 100){
+                    MatrizEspelhada[i][j] = 0;
+                }
+                else{
+                    MatrizEspelhada[i][j] = 255;
+                }
             }
         }
-        }
 
-    //--------------------Criar nova matriz-----------------------
+    //-----Criar e passar as novas informacoes para a matriz----
 
     arq = fopen("MatBinarizacaoHistograma.pgm", "w");
     fprintf(arq,"P2\n");
@@ -77,7 +82,7 @@ void Principal__Binarizacao(){
 
     for(i=0; i<linha; i++){
         for(j=0; j<coluna; j++){
-            fprintf(arq, "%3d\n",MatrizEspelhada[i][j]);
+            fprintf(arq, "%d\n",MatrizEspelhada[i][j]);
             //fprintf(arq, "%3d\n",MatrizOriginal[i][j]);
         }
     }

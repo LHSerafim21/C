@@ -38,7 +38,7 @@ void Inverter(){
 
     fclose(arq);
 
-    //----------------------Girar matriz-------------------
+    //----------------------Inverter matriz-------------------
 
     for(i = 0; i < linha; i++){
         for(j = 0; j < coluna; j++){
@@ -103,7 +103,7 @@ void Girar90_AntiHorario(){
 
     fclose(arq);
 
-    //----------------------Girar matriz-------------------
+    //-----------------Girar 90° AntiHorario matriz-------------------
 
     for(i = 0; i < linha; i++){
         for(j = 0; j < coluna; j++){
@@ -171,7 +171,7 @@ void Girar90_Horario(){
 
     fclose(arq);
 
-    //----------------------Girar matriz-------------------
+    //----------------------Girar 90° Horario matriz-------------------
 
     for(i = 0; i < linha; i++){
         for(j = 0; j < coluna; j++){
@@ -239,10 +239,7 @@ void Girar180(){
 
     fclose(arq);
 
-    //----------------------Girar matriz-------------------
-
-    printf("teste");
-    sleep(3);
+    //----------------------Girar matriz  180°-------------------
 
     for(i = 0; i < linha; i++){
         for(j = 0; j < coluna; j++){

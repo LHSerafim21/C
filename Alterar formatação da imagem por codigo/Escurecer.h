@@ -43,6 +43,7 @@ void Principal__Escurecer(){
     MatrizOriginal = funcaoAlocarMatriz(coluna, linha);
     MatrizEspelhada = funcaoAlocarMatriz(coluna, linha);
 
+
     for(i = 0; i < linha; i++){
         for(j = 0; j < coluna; j++){
             fscanf(arq, "%d", &A);
