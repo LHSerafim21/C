@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1675398951 source:c:\users\gutis\onedrive\documentos\unesp\4° semestre\estrutura de dados ii\tp final edii\tpf_edii\main.cpp
+	"TPF.c"
+
+1675400366 c:\users\gutis\onedrive\documentos\unesp\4° semestre\estrutura de dados ii\tp final edii\tpf_edii\tpf.c
+	"TPF.h"
+
+1675398951 c:\users\gutis\onedrive\documentos\unesp\4° semestre\estrutura de dados ii\tp final edii\tpf_edii\tpf.h
+	<stdio.h>
+	<stdlib.h>
+
+1675459657 source:c:\users\gabri\downloads\Área de trabalho\tp final - luiz henrique\trabalho-ed ii- luiz henrique\main.cpp
+	"TPF.c"
+
+1675459702 c:\users\gabri\downloads\Área de trabalho\tp final - luiz henrique\trabalho-ed ii- luiz henrique\tpf.c
+	"TPF.h"
+
+1675459620 c:\users\gabri\downloads\Área de trabalho\tp final - luiz henrique\trabalho-ed ii- luiz henrique\tpf.h
+	<stdio.h>
+	<stdlib.h>
+
