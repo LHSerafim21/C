@@ -55,16 +55,16 @@ void Principal__Histograma(){
 
 
 
-    //-----Criar e passar as novas informacoes para a matriz----
+    /*//-----Criar e passar as novas informacoes para a matriz----
 
     arq = fopen("MatHistograma.pgm", "w");
 
     if(arq != NULL) {
         for(int i = 0; i < max; i++) {
-            fprintf(arq, "%d\n", vetor[i]);
+           // fprintf(arq, "%d\n", vetor[i]);
         }
 
-    fclose(arq);
+    fclose(arq);*/
 
 
 
