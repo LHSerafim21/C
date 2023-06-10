@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1683486009 source:d:\documents\unesp\2_ano\ed\listaestatica\main.c
+	<stdio.h>
+	<stdlib.h>
+

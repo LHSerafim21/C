@@ -1,0 +1,13 @@
+lista lista;
+    inicializar(&lista);
+    char carac;
+    printf("Digite uma letra: ");
+    scanf("%c",&carac);
+    inserir_elemento(&lista, carac);
+    fflush(stdin);
+    printf("\nDigite uma letra: ");
+    scanf("%c",&carac);
+    inserir_elemento(&lista, carac);
+    print_lista(&lista);
+    return 0;
+}

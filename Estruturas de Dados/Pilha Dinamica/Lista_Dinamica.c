@@ -25,6 +25,7 @@ int main(){
     while(x!=0){
 
         system("cls");
+        printf("teste");
         printf("Digite o numero desejado\n\n1-Inicializa Pilha\n");
         scanf("%d",&n);
 
@@ -36,3 +37,4 @@ int main(){
         }
     }
 }
+
