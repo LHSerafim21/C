@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1689203562 source:c:\users\henrique\desktop\texto.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<process.h>
+	<string.h>
+
